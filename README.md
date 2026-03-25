@@ -64,8 +64,6 @@ PostgreSQL, Redis(선택), AWS ECS Fargate, RDS PostgreSQL, S3, CloudFront, Rout
 - AI 기능을 제품 기능이 아니라 서비스 시스템으로 바라보는 시각
 ## 현재 레포 상태
 
-현재 공개 레포에서는 PRD.md와 개발 실행용 .claude 설정, 그리고 secure-dual-ai-workspace 엔트리가 확인됩니다.
-개발 설정상 dev server는 secure-dual-ai-workspace 기준으로 실행되고, PostgreSQL은 Docker Compose로 올리도록 잡혀 있습니다. 따라서 이 레포는 보안 우선형 AI SaaS 설계와 개발 환경 구성을 보여주는 프로젝트로 소개하는 것이 가장 자연스럽습니다.
 
 한 줄 회고
 
