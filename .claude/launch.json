@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "노잉봇 Dev Server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "secure-dual-ai-workspace"],
+      "port": 3000
+    },
+    {
+      "name": "PostgreSQL (Docker)",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "--file", "secure-dual-ai-workspace/docker-compose.yml", "up", "postgres"],
+      "port": 5432
+    }
+  ]
+}
